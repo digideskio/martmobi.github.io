@@ -12,7 +12,7 @@
 }
 .img-logo{
 	margin: auto;
-	width: 30%;
+	width: 20%;
 }
 .sub-title-a{
 	margin-top: 5% !important;
@@ -40,6 +40,17 @@ p.img-sub-msg {
   	font-size: 18px;
   	font-weight: 400;
   	margin-top: 3%;
+}
+.seller-count-heading{
+	font-family: roboto slab;
+  	font-size: 18px;
+  	font-weight: 400;
+  	margin-top: 5%;
+}
+.seller-count{
+	font-weight: bold !important;
+	font-family: roboto slab;
+  	font-size: 18px;
 }
 .text-red{
 	color: #f0504a;
@@ -99,4 +110,11 @@ input#login-submit {
 	.controls .col-sm-6{
 		width: 100% !important;
 	}
+}
+
+img.ajax-loader {
+  position: absolute;
+  left: 46%;
+  top: 50vh;
+  display: none;
 }
