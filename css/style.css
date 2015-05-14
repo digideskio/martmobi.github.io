@@ -35,6 +35,12 @@ p.img-sub-msg {
   font-weight: 400;
   width: 70%;
 }
+p.img-sub-msg-buyer{
+	font-family: roboto slab;
+  font-size: 15px;
+  margin: 9% auto 0 auto;
+  font-weight: 400;
+}
 .sign-heading{
 	font-family: roboto slab;
   	font-size: 18px;
@@ -76,7 +82,15 @@ input#login-submit {
   color: #fff;
   text-transform: uppercase;
 }
-
+input#login-submit-buyer {
+  margin-top: 7%;
+  background: #f0504a;
+  height: 40px;
+  width: 80%;
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
 @media (max-width: 767px) {
 
 	.treasure-bg{
