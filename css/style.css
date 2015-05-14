@@ -1,0 +1,102 @@
+.treasure-bg{
+	background: url('../img/pattern.jpg') repeat;
+	min-height: 100vh;
+  	padding-bottom: 50px;
+}
+.main-title{
+	margin-top: 6% !important;
+}
+.sub-title{
+	font-family: roboto slab;
+  	font-weight: bold;
+}
+.img-logo{
+	margin: auto;
+	width: 30%;
+}
+.sub-title-a{
+	margin-top: 5% !important;
+  	font-family: roboto slab;
+  	font-size: 22px !important;
+  	font-weight: bold;
+}
+.img-feat {
+  margin: auto;
+  width: 60%;
+  margin-top: 5% !important;
+}
+.img-col{
+	margin-top: 3%;
+}
+p.img-sub-msg {
+  font-family: roboto slab;
+  font-size: 15px;
+  margin: 9% auto 0 auto;
+  font-weight: 400;
+  width: 70%;
+}
+.sign-heading{
+	font-family: roboto slab;
+  	font-size: 18px;
+  	font-weight: 400;
+  	margin-top: 3%;
+}
+.text-red{
+	color: #f0504a;
+}
+input{
+	padding: 10px;
+}
+.controls .col-sm-6 {
+  width: 47.5% !important;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+}
+
+select{
+	padding: 11.1px !important;
+}
+input#login-submit {
+  margin-top: 7%;
+  background: #f0504a;
+  height: 40px;
+  width: 80%;
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+
+	.treasure-bg{
+		padding-top: 30px;
+	}
+	.img-logo{
+		width: 80%! important;
+	}
+	.sub-title-a{
+		  width: 60%;
+		  line-height: 1.5;
+		  margin: auto;
+		  font-weight: normal !important;
+		  margin-top: 10% !important;
+	}
+
+	.img-feat {
+  
+	  width: 45% !important;
+	  margin-top: 15% !important;
+	}
+	p.img-sub-msg {
+	  
+	  font-size: 18px !important;
+	  margin: 5% auto 0 auto !important;
+	  
+	}
+	.sign-heading{
+		margin-top: 10% !important;
+	}
+	.controls .col-sm-6{
+		width: 100% !important;
+	}
+}
