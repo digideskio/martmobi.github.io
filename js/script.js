@@ -73,8 +73,8 @@ $(document).on('click','#login-submit-buyer', function(e) {
     $.ajax({
 
 
-                url: "https://docs.google.com/a/snapdeal.com/forms/d/1nBNWIPTNQawmw49xvyuUXE9tWRb7wePaNjpPT8jjYak/formResponse",
-                data: {'entry_1541905258' : name, 'entry_195017034' : email,  'entry_1374944601' : phonenumber, 'entry_329537662' : city},
+                url: "https://docs.google.com/forms/d/10C8dRiyUHqfaHgmfdcBlWp5CgnLOaWRUIJJt1_gTq8k/formResponse",
+                data: {'entry_1874613649' : name, 'entry_146523552' : email,  'entry_1226982246' : phonenumber, 'entry_1776698658' : city},
                 type: "POST",
                 dataType: "xml",
                 statusCode: {
